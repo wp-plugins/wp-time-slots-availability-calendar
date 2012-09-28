@@ -55,7 +55,8 @@ Please see http://www.wptimeslots.com for more information and ask your question
 == Screenshots ==
 
 1. How it looks on your site
-2. How it looks in your WordPress admin panel
+2. Admin panel: Creating the calendar
+3. Admin panel: Editing the availability
 
 == Changelog ==
 
