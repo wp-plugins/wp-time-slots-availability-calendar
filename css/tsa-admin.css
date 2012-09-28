@@ -1,0 +1,17 @@
+table.tsa-table td {line-height:22px;}
+table.tsa-table td a.delete {text-decoration:none; color:#D54E21; padding:2px;}
+table.tsa-table td a.delete:hover {text-decoration:none; background-color:#D54E21; color:#ffffff;}
+
+div.tsa-calendar-admin-container {width:500px;}
+div.tsa-calendar-settings {width:280px; float:right;}
+div.tsa-calendar-container div.tsa-calendar {float:left;}
+
+select.tsa-status { width:100px;}
+
+select.tsa-status option.tsa-option-free {background-color:#ddffcc;}
+select.tsa-status option.tsa-option-booked {background-color:#ffc0bd;}
+
+
+#tsa-metabox select {min-width:70px;}
+
+
