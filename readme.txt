@@ -67,5 +67,8 @@ Please see http://www.wptimeslots.com for more information and ask your question
 
 == Upgrade Notice ==
 
+= 1.1 =
+* Fixed Ajax bug
+
 = 1.0 =
 * Stable release
