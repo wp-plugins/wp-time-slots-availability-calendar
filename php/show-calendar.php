@@ -12,7 +12,7 @@
 $freeDayOffset = 0;
 $thisDay = strtotime("+" . $freeDayOffset . " days", $currentTimestamp);
 $checkDays = checkDays($calendarData['days'],$thisDay,'next', 1);
-$thisDay = $checkDays['timestamp'];
+$currentTimestamp = $thisDay = $checkDays['timestamp'];
 $freeDayOffset = $freeDayOffset + $checkDays['count'];
 $currentDay = date_i18n('D d-m-y',$thisDay);
 $tsaDay = date('d',$thisDay);
