@@ -3,7 +3,7 @@
 Plugin Name: WP Time Slots Availability Calendar
 Plugin URI: http://www.wptimeslots.com/
 Description: WP Time Slots Availability Calendar - Free version
-Version: 1.0 
+Version: 1.1
 Author: Bryght
 Author URI: http://www.wptimeslots.com/
 */    
