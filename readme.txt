@@ -21,6 +21,7 @@ Features of the full version:
 
 * Custom time slot steps! Like 12:00 - 12:05 (every 5 minutes) or every 10 minutes and so on.
 * Show multiple days
+* Show a legend near the calendar
 * Create an unlimited number of calendars
 * Show or hide the days in a drop down menu
 * Only $25 (no yearly costs!)
