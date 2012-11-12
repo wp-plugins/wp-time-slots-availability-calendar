@@ -47,7 +47,7 @@
             <?php echo __('No calendars found.','tsa')?>
         <?php endif;?>
         <div class="updated">
-            <h3>Get the full version!</h3>
+            <h3>Need more options? We have a special offer for you:</h3>
             <ul>
                 <li>- Custom time slot steps! Like 12:00 - 12:05 (every 5 minutes) or every 10 minutes and so on.</li>
                 <li>- Show multiple days</li>
@@ -59,6 +59,7 @@
                 <li>- Download directly without registration</li>
                 <li>- Not satisfied? Money back guarantee!</li>
             </ul>
-            <p><a class="button-secondary" href="http://www.wptimeslots.com/" title="" target="_blank">More information</a></p>
+            <h3>Now available for only $15 instead of $25! That's a discount of 40%!</h3>
+            <p><a class="button-secondary" href="http://www.wptimeslots.com/" title="" target="_blank">Read more</a></p>
         </div>
     </div>
