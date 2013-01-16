@@ -83,6 +83,7 @@ function changeDay_callback() {
         $currentTimestamp = $_POST['timestamp']-86400;
     else
         $currentTimestamp = $_POST['timestamp'];
+
     $currentTimestamp = checkDays($calendarData['days'],$currentTimestamp,$_POST['direction']);
     
     $currentDay = date('D d-m-y',$currentTimestamp);

@@ -22,8 +22,8 @@
     <?php endif;?>
     
     <h3><?php echo __('Add new calendar','tsa')?></h3>
-    
-    <?php if(count($calendarData = unserialize(get_option('tsa-calendar-data')))>0):?>
+    <?php $calendarData = get_option('tsa-calendar-data'); ?>
+    <?php if(!empty($calendarData) && count(unserialize($calendarData))>0):?>
     <div class="error">
         <p>You can only add one calendar.</p>
     </div>    

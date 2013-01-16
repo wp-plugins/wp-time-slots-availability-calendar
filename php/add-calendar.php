@@ -5,8 +5,12 @@
  * Copyright (c) 2012 Bryght
  */
 
-$calendarData = unserialize(get_option('tsa-calendar-data'));
-if(count($calendarData)>0) die();
+$calendarData = (get_option('tsa-calendar-data'));
+
+if(!empty($calendarData) && count(unserialize($calendarData))>0) die();
+
+$calendarData = unserialize($calendarData);
+
 if($calendarData)
     $lastId = array_pop(array_keys($calendarData));
 else

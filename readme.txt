@@ -1,16 +1,15 @@
 === WP Time Slots Availability Calendar ===
 Contributors: Bryght, Veribo
-Tags: time slot, time slots, timeslot, timeslots, calendar, availability, availability calendar, appointment, appointment, calendar, time blocker, booking, booking calendar
+Tags: time slot, time slots, timeslot, timeslots, calendar, availability, appointment, appointment, calendar, time blocker, booking
 Requires at least: 3.0
-Tested up to: 3.4.2
+Tested up to: 3.5
 Stable tag: 1.0
 License: GPLv2
 
-Availability calendar that shows the availability in time slots, like 08:00 - 09:00, 09:00 - 10:00 and so on!
+Time slot calendar that shows the availability in time slots, like 08:00 - 09:00, 09:00 - 10:00 and so on!
 
 
 == Description ==
-See http://www.wptimeslots.com for more info!
 
 * Show the availability of anything per hour per day
 * Mark a time slot as free or booked, for example 08:00 - 09:00
@@ -23,10 +22,12 @@ Features of the full version:
 * Show multiple days
 * Create an unlimited number of calendars
 * Show or hide the days in a drop down menu
-* Only $25 (no yearly costs!)
+* Only $15 (no yearly costs!)
 * Download directly without registration
 * Not satisfied? Money back guarantee!
 * Download the full version at: http://www.wptimeslots.com
+
+See http://www.wptimeslots.com for more info!
 
 
 == Installation ==
@@ -55,8 +56,7 @@ Please see http://www.wptimeslots.com for more information and ask your question
 == Screenshots ==
 
 1. How it looks on your site
-2. Admin panel: Creating the calendar
-3. Admin panel: Editing the availability
+2. How it looks in your WordPress admin panel
 
 == Changelog ==
 
