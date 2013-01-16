@@ -1,0 +1,188 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Time Slots Availability Calendar\n"
+"POT-Creation-Date: 2012-09-19 16:35+0200\n"
+"PO-Revision-Date: 2012-09-19 16:37+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.3\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: D:\\availability\\wp-content\\plugins\\wp-time-slots-"
+"availability-calendar\\\n"
+"X-Poedit-SearchPath-0: php\n"
+"X-Poedit-SearchPath-1: views\n"
+
+#: php/show-calendar.php:67 php/show-calendar.php:95
+msgid "Free"
+msgstr ""
+
+#: php/show-calendar.php:68 php/show-calendar.php:96
+msgid "Booked"
+msgstr ""
+
+#: php/show-calendar.php:81
+msgid "Hour"
+msgstr ""
+
+#: php/show-calendar.php:82
+msgid "Status"
+msgstr ""
+
+#: views/add-calendar.php:5
+msgid "Error: The end time must be greater than the start time."
+msgstr ""
+
+#: views/add-calendar.php:9
+msgid "Error: You must select at lease one day."
+msgstr ""
+
+#: views/add-calendar.php:13
+msgid "Error: You must enter a calendar name."
+msgstr ""
+
+#: views/add-calendar.php:17
+msgid "Add new calendar"
+msgstr ""
+
+#: views/add-calendar.php:18
+msgid ""
+"Choose the settings for your new calendar. Please note that these cannot be "
+"changed later."
+msgstr ""
+
+#: views/add-calendar.php:24
+msgid "Calendar Name:"
+msgstr ""
+
+#: views/add-calendar.php:31
+msgid "Time Steps:"
+msgstr ""
+
+#: views/add-calendar.php:44
+msgid "Start Time:"
+msgstr ""
+
+#: views/add-calendar.php:55
+msgid "End Time:"
+msgstr ""
+
+#: views/add-calendar.php:67
+msgid "Time Notation:"
+msgstr ""
+
+#: views/add-calendar.php:78
+msgid "Days:"
+msgstr ""
+
+#: views/add-calendar.php:81
+msgid "Monday"
+msgstr ""
+
+#: views/add-calendar.php:84
+msgid "Tuesday"
+msgstr ""
+
+#: views/add-calendar.php:87
+msgid "Wednesday"
+msgstr ""
+
+#: views/add-calendar.php:90
+msgid "Thursday"
+msgstr ""
+
+#: views/add-calendar.php:93
+msgid "Friday"
+msgstr ""
+
+#: views/add-calendar.php:96
+msgid "Saturday"
+msgstr ""
+
+#: views/add-calendar.php:99
+msgid "Sunday"
+msgstr ""
+
+#: views/calendar-list.php:5
+msgid "The calendar was updated"
+msgstr ""
+
+#: views/calendar-list.php:9
+msgid "Calendars"
+msgstr ""
+
+#: views/calendar-list.php:16
+msgid "ID"
+msgstr ""
+
+#: views/calendar-list.php:17
+msgid "Calendar Name"
+msgstr ""
+
+#: views/calendar-list.php:18
+msgid "Time Steps"
+msgstr ""
+
+#: views/calendar-list.php:19
+msgid "Start Time"
+msgstr ""
+
+#: views/calendar-list.php:20
+msgid "End Time"
+msgstr ""
+
+#: views/calendar-list.php:30
+msgid "minutes"
+msgstr ""
+
+#: views/calendar-list.php:33
+msgid "edit calendar"
+msgstr ""
+
+#: views/calendar-list.php:33
+msgid "delete"
+msgstr ""
+
+#: views/calendar-list.php:39
+msgid "No calendars found."
+msgstr ""
+
+#: views/edit-calendar.php:32
+msgid "Wrong calendar ID"
+msgstr ""
+
+#: views/token-generator.php:5
+msgid "Select Calendar:"
+msgstr ""
+
+#: views/token-generator.php:19
+msgid "Show Legend:"
+msgstr ""
+
+#: views/token-generator.php:23 views/token-generator.php:35
+#: views/token-generator.php:60
+msgid "Yes"
+msgstr ""
+
+#: views/token-generator.php:24 views/token-generator.php:36
+#: views/token-generator.php:61
+msgid "No"
+msgstr ""
+
+#: views/token-generator.php:31
+msgid "Show Title:"
+msgstr ""
+
+#: views/token-generator.php:43
+msgid "Calendar View:"
+msgstr ""
+
+#: views/token-generator.php:56
+msgid "Show Dropdown:"
+msgstr ""
+
+#: views/token-generator.php:68
+msgid "Send Token to Editor"
+msgstr ""
