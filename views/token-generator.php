@@ -22,7 +22,6 @@
         </tr> 
         
         
-        
         <tr>
             <th scope="row">
                 <label for="tsaMetabox_title"><?php echo __('Show Title:','tsa')?></label>

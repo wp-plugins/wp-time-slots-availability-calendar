@@ -40,7 +40,6 @@ $freeDayOffset++;
 </div>
 </div>
 
-
 <?php if(empty($includeEditor) && get_option('tsa-powered-by') == 0):?>
 <div class="tsa-clear"><!-- --></div>
 <div class="tsa-copyright">&copy; <a href="http://www.wptimeslots.com/" target="_blank" title="WP Time Slots Availability Calendar">WP Time Slots Availability Calendar</a></div>
