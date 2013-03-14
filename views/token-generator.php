@@ -23,18 +23,6 @@
         
         <tr>
             <th scope="row">
-                <label for="tsaMetabox_legend"><?php echo __('Show Legend:','tsa')?></label>
-            </th>
-            <td>
-                <select name="tsaMetabox[legend]" id="tsaMetabox_legend">
-                    <option value="yes"><?php echo __('Yes','tsa')?></option>
-                    <option value="no"><?php echo __('No','tsa')?></option>
-                </select>
-            </td>
-        </tr>
-        
-        <tr>
-            <th scope="row">
                 <label for="tsaMetabox_title"><?php echo __('Show Title:','tsa')?></label>
             </th>
             <td>

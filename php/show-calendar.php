@@ -39,14 +39,6 @@ $freeDayOffset++;
     </ul>
 </div>
 </div>
-<?php if(!empty($legend) && $legend == 'yes' && empty($includeEditor)):?>
-    <div class="tsa-calendar-legend">
-        <ul class="tsa-calendar-legend-list">
-            <li><span class="legend-color free"><!-- --></span><?php echo __('Free','tsa')?></li>
-            <li><span class="legend-color booked"><!-- --></span><?php echo __('Booked','tsa')?></li>
-        </ul>
-    </div>
-<?php endif;?>
 
 <?php if(empty($includeEditor) && get_option('tsa-powered-by') == 0):?>
 <div class="tsa-clear"><!-- --></div>

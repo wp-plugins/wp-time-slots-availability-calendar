@@ -55,7 +55,7 @@
                 <li>- Create an unlimited number of calendars</li>
                 <li>- Show or hide the days in a drop down menu</li>
                 <li>- No copyright texts</li>
-                <li>- Only $25 (no yearly costs!)</li>
+                <li>- Only $15 (no yearly costs!)</li>
                 <li>- Download directly without registration</li>
                 <li>- Not satisfied? Money back guarantee!</li>
             </ul>
