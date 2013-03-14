@@ -51,10 +51,11 @@
             <ul>
                 <li>- Custom time slot steps! Like 12:00 - 12:05 (every 5 minutes) or every 10 minutes and so on.</li>
                 <li>- Show multiple days</li>
+                <li>- Show a legend near the calendar</li>
                 <li>- Create an unlimited number of calendars</li>
                 <li>- Show or hide the days in a drop down menu</li>
                 <li>- No copyright texts</li>
-                <li>- Only $15 (no yearly costs!)</li>
+                <li>- Only $25 (no yearly costs!)</li>
                 <li>- Download directly without registration</li>
                 <li>- Not satisfied? Money back guarantee!</li>
             </ul>

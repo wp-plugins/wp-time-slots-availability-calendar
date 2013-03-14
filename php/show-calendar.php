@@ -6,7 +6,7 @@
  */
 ?>
 <div class="tsa-calendar-container">
-    <?if(!empty($title) && $title == 'yes'):?><h1><?php echo $calendarData['calendarName'];?></h1><?php endif;?>
+    <?php if(!empty($title) && $title == 'yes'):?><h1><?php echo $calendarData['calendarName'];?></h1><?php endif;?>
 <div class="tsa-calendar-wrapper">    
 <?php
 $freeDayOffset = 0;
@@ -39,6 +39,14 @@ $freeDayOffset++;
     </ul>
 </div>
 </div>
+<?php if(!empty($legend) && $legend == 'yes' && empty($includeEditor)):?>
+    <div class="tsa-calendar-legend">
+        <ul class="tsa-calendar-legend-list">
+            <li><span class="legend-color free"><!-- --></span><?php echo __('Free','tsa')?></li>
+            <li><span class="legend-color booked"><!-- --></span><?php echo __('Booked','tsa')?></li>
+        </ul>
+    </div>
+<?php endif;?>
 
 <?php if(empty($includeEditor) && get_option('tsa-powered-by') == 0):?>
 <div class="tsa-clear"><!-- --></div>
