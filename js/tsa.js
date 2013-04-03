@@ -10,7 +10,7 @@ tsa(document).ready(function(){
     tsa('.tsa-calendar-container').each(function(){
         var $instance = tsa(this);
         
-        $instance.find('a.tsa-calendar-next').live('click',function(e){
+        $instance.on('click','a.tsa-calendar-next',function(e){
             $instance.find('.tsa-ajax-loader').css('display','block');
             e.preventDefault();
             var data = {
@@ -29,7 +29,7 @@ tsa(document).ready(function(){
         	});
         });
         
-        $instance.find('a.tsa-calendar-prev').live('click',function(e){
+        $instance.on('click','a.tsa-calendar-prev',function(e){
             $instance.find('.tsa-ajax-loader').css('display','block');
             e.preventDefault();
             var data = {
@@ -50,7 +50,7 @@ tsa(document).ready(function(){
         });
         
         
-        $instance.find('select.tsa-dropdown-select').live('change',function(e){
+        $instance.on('change','select.tsa-dropdown-select',function(e){
             $instance.find('.tsa-ajax-loader').css('display','block');
             var data = {
         		action: 'changeDay',

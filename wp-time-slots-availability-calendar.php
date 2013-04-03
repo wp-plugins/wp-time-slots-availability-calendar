@@ -3,7 +3,7 @@
 Plugin Name: WP Time Slots Availability Calendar
 Plugin URI: http://www.wptimeslots.com
 Description: WP Time Slots Availability Calendar - Free version
-Version: 1.1
+Version: 1.2
 Author: WP Time Slots Availability Calendar
 Author URI: http://www.wptimeslots.com
 */    
@@ -24,14 +24,14 @@ if (is_admin()) {
     function tsa_admin_styles() {
         wp_enqueue_style( 'tsa-admin', TSA_PATH . '/css/tsa-admin.css' );
         wp_enqueue_style( 'tsa', TSA_PATH . '/css/tsa.css' );
-        wp_enqueue_script('tsa', TSA_PATH . '/js/tsa-admin.js', array('jquery'));
+        wp_enqueue_script('tsa', TSA_PATH . '/js/tsa-admin.js',array('jquery'));
     }
     add_action( 'admin_init', 'tsa_admin_styles' );
        
 } else {
     function tsa_styles() {
         wp_enqueue_style( 'tsa', TSA_PATH . '/css/tsa.css' );
-        wp_enqueue_script('tsa', TSA_PATH . '/js/tsa.js', array('jquery'));
+        wp_enqueue_script('tsa', TSA_PATH . '/js/tsa.js',array('jquery'));
     }
     add_action( 'init', 'tsa_styles' );
     

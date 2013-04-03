@@ -7,7 +7,7 @@
 var tsa = jQuery.noConflict();
 
 tsa(document).ready(function(){
-    tsa('a.tsa-calendar-next').live('click',function(){
+    tsa(document).on('click','a.tsa-calendar-next',function(){
         tsa('.tsa-ajax-loader').css('display','block');
         var data = {
     		action: 'changeDayAdmin',
@@ -22,7 +22,7 @@ tsa(document).ready(function(){
     	});
     });
     
-    tsa('a.tsa-calendar-prev').live('click',function(){
+    tsa(document).on('click','a.tsa-calendar-prev',function(){
         tsa('.tsa-ajax-loader').css('display','block');
         var data = {
     		action: 'changeDayAdmin',
@@ -38,7 +38,7 @@ tsa(document).ready(function(){
     	});
     });
     
-    tsa('select.tsa-dropdown-select').live('change',function(e){
+    tsa(document).on('change','select.tsa-dropdown-select',function(e){
         tsa('.tsa-ajax-loader').css('display','block');
         var data = {
     		action: 'changeDayAdmin',
@@ -62,7 +62,7 @@ tsa(document).ready(function(){
         if(tsa("#tsaCalendarString").attr('value')!='[]')
             tsaCalendarString = JSON.parse(tsa("#tsaCalendarString").attr('value'));
         
-    tsa(".tsa-status").live('change',function(){
+    tsa(document).on('change',".tsa-status",function(){
         currentYear = tsa(".tsa-year").html();
         currentMonth = tsa(".tsa-month").html();
         currentDay = tsa(".tsa-day").html();
