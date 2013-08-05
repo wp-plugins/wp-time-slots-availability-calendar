@@ -1,4 +1,4 @@
-=== WP Time Slots Availability Calendar ===
+=== WP Time Slots ===
 Contributors: Bryght, Veribo
 Tags: time slot, time slots, timeslot, timeslots, calendar, availability, appointment, appointment, calendar, time blocker
 Requires at least: 3.0
