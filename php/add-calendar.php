@@ -20,7 +20,7 @@ $timeSteps = filter_input(INPUT_POST,'tsa_time_steps',FILTER_SANITIZE_NUMBER_INT
 $startTime = filter_input(INPUT_POST,'tsa_start_time',FILTER_SANITIZE_NUMBER_INT);
 $endTime = filter_input(INPUT_POST,'tsa_end_time',FILTER_SANITIZE_NUMBER_INT);
 $timeNotation = filter_input(INPUT_POST,'tsa_notation',FILTER_SANITIZE_NUMBER_INT);
-$calendarName = mysql_real_escape_string(strip_tags(htmlspecialchars($_POST['tsa_calendar_name'])));
+$calendarName = strip_tags(htmlspecialchars($_POST['tsa_calendar_name']));
 
 if(!$calendarName){
     $status = 3;
