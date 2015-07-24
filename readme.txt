@@ -2,7 +2,7 @@
 Contributors: Bryght, Veribo
 Tags: time slot, time slots, timeslot, timeslots, calendar, appointment, appointment, time blocker
 Requires at least: 3.0
-Tested up to: 4.2.2
+Tested up to: 4.2.3
 Stable tag: 1.3
 License: GPLv2
 
