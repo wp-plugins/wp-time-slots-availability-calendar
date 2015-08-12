@@ -7,7 +7,7 @@
 
 class tsa_widget extends WP_Widget {
     function tsa_widget() {
-        parent::WP_Widget(false, $name = 'WP Time Slot Availability Calendar', array(
+        parent::__construct(false, $name = 'WP Time Slot Availability Calendar', array(
             'description' => 'Use this widget to add the time slot availability calendar to the sidebar '
         ));
     }

@@ -2,8 +2,8 @@
 Contributors: Bryght, Veribo
 Tags: time slot, time slots, timeslot, timeslots, calendar, appointment, appointment, time blocker
 Requires at least: 3.0
-Tested up to: 4.2.3
-Stable tag: 1.3
+Tested up to: 4.3
+Stable tag: 1.4
 License: GPLv2
 
 Time slot calendar that shows the availability in time slots, like 08:00 - 09:00, 09:00 - 10:00 and so on!
@@ -59,6 +59,9 @@ Please see http://www.wptimeslots.com for more information and ask your question
 
 == Changelog ==
 
+= 1.4 =
+* Small tweak to support PHP 7
+
 = 1.3 =
 * Fixed a bug that was present when adding a calendar in WordPress 4.1
 
@@ -73,6 +76,9 @@ Please see http://www.wptimeslots.com for more information and ask your question
 * First release
 
 == Upgrade Notice ==
+
+= 1.4 =
+* Small tweak to support PHP 7
 
 = 1.3 =
 * Fixed a bug that was present when adding a calendar in WordPress 4.1
